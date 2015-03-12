@@ -2,3 +2,5 @@
 Berksfile.lock
 /cookbooks
 !/cookbooks/.gitkeep
+/nodes
+!/nodes/.gitkeep

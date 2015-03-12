@@ -1,7 +1,14 @@
 #!/bin/bash
 
-# SSHのポートは予め決めておくこと。
+# SSHのポートを変更（/etc/ssh/sshd_config）
 
+# FQDNの変更
+# Ubuntuの場合、/etc/resolv.confでドメインを追加
+# Ubuntuの場合、/etc/hostsnameで変更して、/etc/hostsに追加する
+
+ipaddressは予め定めておくこと。
+
+# chefユーザーの追加
 ADMIN_USER=chef
 useradd $ADMIN_USER -G admin
 # /etc/sudoersでadminグループをパスワード無しsudo可能になっている前提
