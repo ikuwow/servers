@@ -8,8 +8,8 @@
 
 ipaddressは予め定めておくこと。
 
-# chefユーザーの追加
-ADMIN_USER=chef
+# botユーザーの追加
+ADMIN_USER=bot
 useradd $ADMIN_USER -G admin
 # /etc/sudoersでadminグループをパスワード無しsudo可能になっている前提
 mkdir /home/$ADMIN_USER/.ssh
