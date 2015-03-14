@@ -3,4 +3,6 @@ Berksfile.lock
 /cookbooks
 /nodes
 /.chef/local-mode-cache
+/.chef/ikuwow.pem
+/.chef/ikuwow-validator.pem
 /.kitchen
