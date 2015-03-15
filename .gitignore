@@ -5,4 +5,5 @@ Berksfile.lock
 /.chef/local-mode-cache
 /.chef/ikuwow.pem
 /.chef/ikuwow-validator.pem
-/.kitchen
+.kitchen/
+.kitchen.local.yml

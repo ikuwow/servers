@@ -13,4 +13,11 @@ suites:
   - name: default
     run_list:
       - recipe[base]
-    attributes:
+        #   - recipe[openssh]
+    # attributes:
+    #   - openssh: 
+    #       - server:
+    #         - password_authentication: "no"
+    #           port: 20642
+
+
