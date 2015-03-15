@@ -14,7 +14,7 @@ suites:
 
     run_list:
       - recipe[base]
-      - recipe[openssh]
+      # - recipe[openssh] # ssh config is not needed in test kitchen, I thought.
 
     attributes:
       openssh: 
