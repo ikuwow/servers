@@ -10,3 +10,4 @@ validation_key           "#{current_dir}/ikuwow-validator.pem"
 chef_server_url          "https://api.opscode.com/organizations/ikuwow"
 syntax_check_cache_path  "#{ENV['HOME']}/.chef/syntaxcache"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+encrypted_data_bag_secret "data_bag_key"

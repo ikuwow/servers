@@ -7,3 +7,4 @@ Berksfile.lock
 /.chef/ikuwow-validator.pem
 .kitchen/
 .kitchen.local.yml
+data_bag_key
