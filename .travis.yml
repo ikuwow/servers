@@ -1,0 +1,8 @@
+language: ruby
+
+rvm:
+    - 2.1.5
+before_script:
+    - echo 0
+script:
+    - echo 0
