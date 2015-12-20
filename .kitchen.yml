@@ -23,7 +23,8 @@ suites:
     encrypted_data_bag_secret_key_path: ./data_bag_key
 
     run_list:
-      - recipe[chef-client::init_service]
+      - recipe[chef-client::config]
+      - recipe[chef-client]
       - recipe[base]
       # - recipe[openssh] # ssh config is not needed in test kitchen, I thought.
       - recipe[webapps::default]
@@ -34,3 +35,4 @@ suites:
           password_authentication: "no"
           port: 20642
           permit_root_login: "no"
+
